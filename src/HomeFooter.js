@@ -26,7 +26,7 @@ const HomeFooter = () => {
             </div>
 
             <div className='navigate'>
-                <h1>Services</h1>
+                <h1 className='servicee'>Services</h1>
                 <button className='service' onClick={()=> Nav('/Bollywood')}><h3>Bollywood</h3></button>
                 <button className='service' onClick={()=> Nav('/Technology')}><h3>Technology</h3></button>
                 <button className='service' onClick={()=> Nav('/Hollywood')}><h3>Hollywood</h3></button>
@@ -37,7 +37,7 @@ const HomeFooter = () => {
             </div>
 
             <div>
-                <h1>Resources</h1>
+                <h1 className='servicee'>Resources</h1>
                 <h3>Blog</h3>
                 <h3>Help Centre</h3>
                 <h3>Careers</h3>
@@ -45,14 +45,14 @@ const HomeFooter = () => {
             </div>
 
             <div>
-                <h1>Partners</h1>
+                <h1 className='servicee'>Partners</h1>
                 <h3>Google</h3>
                 <h3>Microsoft</h3>
                 <h3>TCS</h3>
             </div>
 
             <div>
-                <h1>Ready to get Admission?</h1>
+                <h1 className='servicee'>Ready to get Admission?</h1>
                 <div className='Demo'>
                 <button className='book'>Book a Demo Classes</button>
                 <div className='footer-phone'>

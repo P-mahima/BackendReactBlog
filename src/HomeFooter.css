@@ -49,6 +49,7 @@ img {
     display: flex;
     justify-content:center ;
     align-items: center;
+    color: white;
 }
 
 .react-info {
@@ -70,7 +71,7 @@ img {
 
 h1 {
     padding: 20px;
-    color: white;
+    /* color: white; */
 }
 
 h4 {
@@ -78,10 +79,15 @@ h4 {
 }
 
 h3 {
-    color: white;
+    /* color: white; */
     text-align: left;
     padding-bottom: 20px;
     font-size: 20px;
+}
+.servicee{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 27px;
 }
 
 .book {
