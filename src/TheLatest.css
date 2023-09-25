@@ -279,7 +279,18 @@ a {
     gap: 130px;
     /* padding: 30px; */
 }
-
+.image-Tech-Bollywood{
+    width: 1px;
+    height: 1px;
+}
+.image-food-Bollywood{
+    width: 1px;
+    height: 1px;
+}
+.image-fitness-Bollywood{
+    width: 1px;
+    height: 1px;
+}
 .Article-heading {
     display: flex;
     flex-direction: column;
