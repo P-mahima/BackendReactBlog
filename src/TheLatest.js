@@ -66,7 +66,7 @@ const TheLatest = () => {
                 <br></br>
 
                 <div>
-                    {/* <img className='TopPostGif' src='https://media0.giphy.com/media/lS107tvBaGNp5zfaeD/giphy.gif' alt='loading'/> */}
+                    <img className='TopPostGif' src='https://media0.giphy.com/media/lS107tvBaGNp5zfaeD/giphy.gif' alt='loading'/>
                 </div>
             </div>
         </div>
