@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ee0ac99.css",
-    "main.js": "/static/js/main.86fceedd.js",
+    "main.css": "/static/css/main.fb1102cb.css",
+    "main.js": "/static/js/main.6da06c1b.js",
     "static/media/video.mp4": "/static/media/video.0e57a384ca4aac35ec92.mp4",
     "static/media/isro-1569470756.jpg": "/static/media/isro-1569470756.f2510b65d0659fe543b7.jpg",
     "index.html": "/index.html",
-    "main.2ee0ac99.css.map": "/static/css/main.2ee0ac99.css.map",
-    "main.86fceedd.js.map": "/static/js/main.86fceedd.js.map"
+    "main.fb1102cb.css.map": "/static/css/main.fb1102cb.css.map",
+    "main.6da06c1b.js.map": "/static/js/main.6da06c1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ee0ac99.css",
-    "static/js/main.86fceedd.js"
+    "static/css/main.fb1102cb.css",
+    "static/js/main.6da06c1b.js"
   ]
 }

@@ -32,6 +32,20 @@
     box-shadow: 2px 2px 10px 2px;
     /* gap: 30px; */
 }
+.Bollywood-image-article{
+    width: 20%;
+    height: 20vh;
+    /* display: flex; */
+    /* padding-top: 20px; */
+    /* padding-left: 20px; */
+    /* margin-left: 20px; */
+    /* display: flex-end; */
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+    box-shadow: 2px 2px 10px 2px;
+    /* gap: 30px; */
+
+}
 .Bollywood-image-hollywood{
     width: 25%;
     height: 25vh;
@@ -207,8 +221,8 @@ a {
 }
 
 .Home-image {
-    width: 50%;
-    height: 20vh;
+    width: 80%;
+    height: 30vh;
     border: 2px solid gray;
     box-shadow: 20px 20px 20px gray;
 }
@@ -227,7 +241,9 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 55%;
+    width: 70%;
+    font-size: 15px;
+    height: 20vh;
     /* color: black; */
     text-align-last: auto;
     /* text-decoration: none; */
@@ -253,14 +269,14 @@ a {
 }
 
 .Bollywood-Latest-image {
-    width: 20%;
-    height: 18vh;
+    width: 50%;
+    height: 20vh;
     padding-bottom: 12px;
 }
 
 .Advertisement-Box {
     height: 70.5vh;
-    width: 80%;
+    width: 90%;
     text-align: center;
     background-color: gray;
     border: 5px solid black;
@@ -271,12 +287,12 @@ a {
 .Advertisement {
     border-top: 5px solid black;
     height: 60.5vh;
-    width: 100%;
+    width: 700px;
 }
 
 .Home-Right-Latest {
     display: flex;
-    gap: 130px;
+    gap: 10px;
     /* padding: 30px; */
 }
 .image-Tech-Bollywood{
@@ -299,16 +315,30 @@ a {
     /* padding-left: 30px; */
     gap: 10px;
     /* width: 90%; */
-    width: 400px;
+    width: 500px;
+    font-size: 20px;
+    text-align-last: auto;
+}
+.Article-heading-heading{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding-left: 30px; */
+    gap: 10px;
+    /* width: 90%; */
+    width: 700px;
+    font-size: 15px;
     text-align-last: auto;
 }
 
 .Article-image {
     display: flex;
     align-items: flex-end;
-    width: 110%;
-    height: 40vh;
-   margin-left: 40px;
+    width: 90%;
+    height: 68vh;
+   margin-left: 30px;
+   margin-top: 30px;
     border: 5px solid black;
     border-radius: 10px;
     /* gap: 20px; */
@@ -480,7 +510,8 @@ a {
         align-items: center; */
         /* padding-left: 30px; */
         /* gap: 10px; */
-        width: 300px;
+        width: 350px;
+        font-size: 15px;
         /* text-align-last: auto; */
     }
 
@@ -490,6 +521,7 @@ a {
         /* gap: 20px; */
         width: 300px;
         height: 400px;
+        /* margin-top: 20px; */
 
     }
 
@@ -532,6 +564,16 @@ a {
         box-shadow: 10px 10px 10px gray;
         /* border: 2px solid black; */
     }
+    .Bollywood-image-article{
+        width: 80%;
+        height: 30vh;
+    }
+    .Article-heading-heading{
+        width: 300px;
+    }
+    .Latest-Stories-heading {
+        width: 80%;
+    }
 
 
 }
@@ -566,6 +608,10 @@ a {
         height: 120px;
 
     }
+    .Bollywood-image-article{
+        width: 80%;
+    }
+    
 
     .Bollywood-heading {
         width: 200px;
@@ -585,7 +631,7 @@ a {
     }
     .Advertisement-Box
     {
-        width: 70%;
+        width: 90%;
         height: 30vh;
     }
     .Advertisement
@@ -596,21 +642,36 @@ a {
     .Home-Heading
     {
         font-size: 40px;
+    
+    }
+    .Home-heading
+    {
+        font-size: 15px;
+        width: 80%;
+        text-align: justify;
+    
     }
     .Article-heading
     {
-        width: 300px;
+        width: 400px;
+        margin-left: 20px;
+        font-size: 20px;
     }
     .Article-image{
         /* padding-top: 20px; */
         margin-top: 20px;
-        width: 80%;
+        width: 90%;
+        height: 20vh;
     }
     .Home-Right-Latest{
-        gap: 10px;
+        gap: 50px;
     }
     .Latest-item{
-        width: 60%;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        /* margin-left: 50px; */
+        margin-bottom: 10px;
     }
     .Home-images{
         gap: 10px;
@@ -651,5 +712,30 @@ a {
     h2{
         font-size: 15px;
     }
+    .Home-image{
+        height: 20vh;
+    }
+    .Bollywood-Latest-image{
+        width: 110%;
+        height: 15vh;
+    }
+    .Article-heading-heading{
+        width: 110%;
+        font-size: 15px;
+    }
+    .Bollywood-image-article{
+        width: 80%;
+    }
+    .nextheadarticle{
+        font-size: 20px;
+    }
+  
+    .Latest-Stories-image{
+        width: 80%;
+    }
+    .Latest-Stories-heading{
+        width: 200px;
+    }
+   
     
 }

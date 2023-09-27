@@ -63,20 +63,20 @@ const TheLatestHome = () => {
                             {ContextBollywood && ContextBollywood.filter((item) => item.Category === 'Latest-Article').map((cat) => {
                                 return (
                                     <div className="Latest-item" >
-                                        <img className="Bollywood-image" src={cat.image} alt="Loading" />
+                                        <img className="Bollywood-image-article" src={cat.image} alt="Loading" />
 
                                         <div className="Article-heading">
                                             <Link to={`/NextPage/${cat.heading}`} state={cat}>
-                                                <h2>{cat.heading}</h2>
+                                                <h2 className="nextheadarticle">{cat.heading}</h2>
                                             </Link>
                                             <h4 className="Bollywood-smallcontent">{cat.SmallContent}</h4>
                                         </div>
                                     </div>
                                 )
                             })}
-                            <div>
-                                <img className="Article-image" src={images3} alt="loading" />
-                            </div>
+                            
+                                <img className="Article-image" src='https://visme.co/blog/wp-content/uploads/2020/02/header-1200.gif' alt="loading" />
+                            
                         </div>
                         <div className="Home-TopPost">
                             <div className="Advertisement-Box">
@@ -84,15 +84,12 @@ const TheLatestHome = () => {
                                 {/* <iframe className="Advertisement" src='https://youtu.be/u3ybWiEUaUU' alt="loading" /> */}
                                 {/* <video  controls>
                                     <source src="movie.mp4" type="video/mp4">
-                                       
+                                
                                           
                                         </video> */}
-                                <video className="Advertisement"  controls
-                                    loop
-                                    autoPlay
-                                    muted>
-                                    <source src={video} type="video/mp4" />
-                                </video>
+                                <img className="Advertisement"
+                                     src='https://ansarshome.files.wordpress.com/2021/09/d3464a4351fdf340ccb6bb37c281381a.gif'  >
+                                </img>
 
                             </div>
                             <div>
@@ -103,7 +100,7 @@ const TheLatestHome = () => {
                                             <div className="Latest-item" >
                                                 <img className="Bollywood-Latest-image" src={cat.image} alt="Loading" />
 
-                                                <div className="Article-heading">
+                                                <div className="Article-heading-heading">
                                                     <Link to={`/NextPage/${cat.heading}`} state={cat}>
                                                         <h2>{cat.heading}</h2>
                                                     </Link>
