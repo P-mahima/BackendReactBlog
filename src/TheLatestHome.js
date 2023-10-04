@@ -1,8 +1,8 @@
 import React, {useEffect, useState } from "react";
 import './TheLatest.css'
 import axios from 'axios'
-import video from './Images/video.mp4'
-import images3 from './Images/isro-1569470756.jpg'
+// import video from './Images/video.mp4'
+// import images3 from './Images/isro-1569470756.jpg'
 import { Link, useParams } from "react-router-dom";
 import HomeFooter from "./HomeFooter";
 
@@ -88,7 +88,7 @@ const TheLatestHome = () => {
                                           
                                         </video> */}
                                 <img className="Advertisement"
-                                     src='https://ansarshome.files.wordpress.com/2021/09/d3464a4351fdf340ccb6bb37c281381a.gif'  >
+                                     src='https://ansarshome.files.wordpress.com/2021/09/d3464a4351fdf340ccb6bb37c281381a.gif' alt="loading" >
                                 </img>
 
                             </div>

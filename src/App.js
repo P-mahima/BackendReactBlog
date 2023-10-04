@@ -3,6 +3,7 @@
 // import Router from './Router';
 import './App.css';
 import DataBollywood from './Data/DataBollywood';
+// import LazyLoadingL from './LoadingLazy';
 // import Data from './Data';
 
 // import Data from './Data';
@@ -24,6 +25,7 @@ function App() {
       {/* <Data/> */}
       {/* <Data/> */}
       <DataBollywood />
+      {/* <LazyLoadingL/> */}
 
 
 
